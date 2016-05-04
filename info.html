@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <!--[if IE 6]>
+    <link rel="stylesheet" href="css/ie6.css" type="text/css" media="all" />
+    <![endif]-->
+    <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery-func.js"></script>
+    <script type="text/javascript" src="newjavascript.js"></script>
+</head>
+<body onload="getinfo()">
+<!-- Shell -->
+<div id="shell">
+    <!-- Header -->
+    <div id="header">
+        <h1 id="logo"><a href="#">Guepard</a></h1>
+        <div class="social">
+            <span>FOLLOW US ON:</span>
+            <ul>
+                <li><a class="twitter" href="twitter.com">twitter</a></li>
+                <li><a class="facebook" href="facebook.com">facebook</a></li>
+                <li><a class="vimeo" href="vimeo.com">vimeo</a></li>
+                <li><a class="rss" href="#">rss</a></li>
+            </ul>
+        </div>
+        <!-- Navigation -->
+        <div id="navigation">
+
+        </div>
+        <!-- end Navigation -->
+
+        <!-- Sub-menu -->
+        <div id="sub-navigation">
+            <ul>
+                <li><a href="index.html">ГЛАВНАЯ</a></li>
+                <li><a href="contacts.html">КОНТАКТЫ</a></li>
+                <li><a href="gallery.html">ГАЛЕРЕЯ</a></li>
+                <li><a href="admin.html">АДМИНИСТАТОР</a></li>
+            </ul>
+
+        </div>
+        <!-- end Sub-Menu -->
+
+    </div>
+    <!-- end Header -->
+
+    <!-- Main -->
+    <div id="main">
+        <!-- Content -->
+        <div id="content">
+            <div class="cover" id="cover">
+               
+            </div>
+
+            <div class="left">
+                <div class="name" id="name">
+
+                </div>
+                <div class="descr" id="descr">
+
+
+                </div>
+                <h2>Страна</h2>
+                <div class="country" id="country"></div>
+                <h2>Год</h2>
+                <div class="year" id="year"></div>
+                <h2>Жанр</h2>
+                <div class="genre" id="genre"></div>
+                <h2>Рейтинг</h2>
+                <div class="rat" id="rat"></div>
+
+                <h2><br> Сеансы </h2>
+                <table class="seans" id="seans">
+                    
+                </table>
+                <div id ='likes'>
+                    <h2> <br>Оценить фильм<br></h2>
+                    <img onclick="like('like');" src="css/images/plus.png" alt="" >
+                    <img onclick="like('dislike');" src="css/images/minus.png" alt="">
+                </div>
+            </div>
+
+
+        </div>
+        <!-- end Content -->
+
+        <!-- NEWS -->
+        <div id="news">
+            <div class="head">
+                <h3>ЖАНРЫ</h3><br>
+            </div>
+            <ul style="list-style-type: none">
+
+                <li><a href="#">Комедия</a></li>
+                <li><a href="#">Боевик</a></li>
+                <li><a href="#">Фантастика</a></li>
+                <li><a href="#">Мультфильм</a></li>
+                <li><a href="#">Мелодрама</a></li>
+            </ul>
+        </div>
+        <!-- end NEWS -->
+
+
+        <div id="news">
+            <div class="head">
+                <h3>СТРАНА</h3><br>
+            </div>
+            <ul style="list-style-type: none">
+
+                <li><a href="#">Великобритания</a></li>
+                <li><a href="#">США</a></li>
+                <li><a href="#">Россия</a></li>
+                <li><a href="#">Франция</a></li>
+                <li><a href="#">Германия</a></li>
+            </ul>
+        </div>
+
+        <div id="news">
+            <div class="head">
+                <h3>ГОД</h3><br>
+            </div>
+            <ul style="list-style-type: none">
+
+                <li><a href="#">2011</a></li>
+                <li><a href="#">2012</a></li>
+                <li><a href="#">2013</a></li>
+                <li><a href="#">2014</a></li>
+                <li><a href="#">2015</a></li>
+                <li><a href="#">2016</a></li>
+            </ul>
+        </div>
+
+        <div class="cl">&nbsp;</div>
+    </div>
+    <!-- end Main -->
+
+    <!-- Footer -->
+    <div id="footer">
+        <p>
+            <a href="index.html">ГЛАВНАЯ</a> <span>|</span>
+            <a href="films.html">ВСЕ ФИЛЬМЫ</a> <span>|</span>
+            <a href="gallery.html">ГАЛЕРЕЯ</a> <span>|</span>
+            <a href="contacts.html">КОНТАКТЫ</a> <span>|</span>
+            <a href="admin.html">АДМИНИСТРАТОР</a>
+        </p>
+        <p> &copy; 2016 Guepard, LLC. All Rights Reserved. </p>
+    </div>
+    <!-- end Footer -->
+</div>
+<!-- end Shell -->
+</body>
+</html>

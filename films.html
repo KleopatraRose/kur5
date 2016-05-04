@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+    <title></title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <link href="css/images/favicon.ico" rel="icon" type="image/x-icon" />
+    <!--[if IE 6]>
+    <link rel="stylesheet" href="css/ie6.css" type="text/css" media="all" />
+    <![endif]-->
+    <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery-func.js"></script>
+    <script type="text/javascript" src="newjavascript.js"></script>
+</head>
+<body onload="getfilms()">
+<!-- Shell -->
+<div id="shell">
+    <!-- Header -->
+    <div id="header">
+        <h1 id="logo"><a href="index.html">Guepard</a></h1>
+        <div class="social">
+            <span>FOLLOW US ON:</span>
+            <ul>
+                <li><a class="twitter" href="twitter.com">twitter</a></li>
+                <li><a class="facebook" href="facebook.com">facebook</a></li>
+                <li><a class="vimeo" href="vimeo.com">vimeo</a></li>
+                <li><a class="rss" href="#">rss</a></li>
+            </ul>
+        </div>
+
+        <!-- Navigation -->
+        <div id="navigation">
+
+        </div>
+        <!-- end Navigation -->
+
+        <!-- Sub-menu -->
+        <div id="sub-navigation">
+            <ul>
+                <li><a href="index.html">ГЛАВНАЯ</a></li>
+                <li><a href="contacts.html">КОНТАКТЫ</a></li>
+                <li><a href="gallery.html">ГАЛЕРЕЯ</a></li>
+                <li><a href="admin.html">АДМИНИСТАТОР</a></li>
+            </ul>
+
+        </div>
+        <!-- end Sub-Menu -->
+
+    </div>
+    <!-- end Header -->
+
+    <!-- Main -->
+    <div id="main">
+        <!-- Content -->
+        <div id="content">
+            <!-- LikeBtn.com BEGIN -->
+
+            <!-- LikeBtn.com END -->
+
+            <!-- Box -->
+            <div class="box">
+				<div class="head">
+					<h2 class="pop" id="filterfilm"></h2>
+
+				</div>
+                <!-- Movie -->
+                <div id="allmovie" >
+
+                </div>
+                <!-- end Movie -->
+                <div class="cl">&nbsp;</div>
+            </div>
+            <!-- end Box -->
+
+
+
+        </div>
+        <!-- end Content -->
+
+        <!-- NEWS -->
+        <div id="news">
+            <div class="head">
+                <h3>ЖАНРЫ</h3><br>
+            </div>
+            <ul style="list-style-type: none">
+
+                <li id="комедия" onclick="filter('genre',this.id)">Комедия</li>
+                <li id="боевик" onclick="filter('genre',this.id)">Боевик</li>
+                <li id="фантастика" onclick="filter('genre',this.id)">Фантастика</li>
+                <li id="мультфильм" onclick="filter('genre',this.id)">Мультфильм</li>
+                <li id="мелодрама" onclick="filter('genre',this.id)">Мелодрама</li>
+            </ul>
+        </div>
+        <!-- end NEWS -->
+
+
+        <div id="news">
+            <div class="head">
+                <h3>СТРАНА</h3><br>
+            </div>
+            <ul style="list-style-type: none">
+
+                <li id="Великобритания" onclick="filter('country',this.id)">Великобритания</li>
+                <li id="США" onclick="filter('country',this.id)">США</a></li>
+                <li id="Россия" onclick="filter('country',this.id)">Россия</a></li>
+                <li id="Франция" onclick="filter('country',this.id)">Франция</a></li>
+                <li id="Германия" onclick="filter('country',this.id)">Германия</a></li>
+            </ul>
+        </div>
+
+        <div id="news">
+            <div class="head">
+                <h3>ГОД</h3><br>
+            </div>
+            <ul style="list-style-type: none">
+                <li id="2012" onclick="filter('year',this.id)">2012</li>
+                <li id="2013" onclick="filter('year',this.id)">2013</li>
+                <li id="2014" onclick="filter('year',this.id)">2014</li>
+                <li id="2015" onclick="filter('year',this.id)">2015</li>
+                <li id="2016" onclick="filter('year',this.id)">2016</li>
+            </ul>
+        </div>
+
+        <div class="cl">&nbsp;</div>
+    </div>
+    <!-- end Main -->
+
+    <!-- Footer -->
+    <div id="footer">
+        <p>
+            <a href="index.html">ГЛАВНАЯ</a> <span>|</span>
+            <a href="films.html">ВСЕ ФИЛЬМЫ</a> <span>|</span>
+            <a href="gallery.html">ГАЛЕРЕЯ</a> <span>|</span>
+            <a href="contacts.html">КОНТАКТЫ</a> <span>|</span>
+            <a href="admin.html">АДМИНИСТРАТОР</a>
+        </p>
+        <p> &copy; 2016 Guepard, LLC. All Rights Reserved. </p>
+    </div>
+    <!-- end Footer -->
+</div>
+<!-- end Shell -->
+</body>
+</html>
